@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1707518814
+icon.svg::CompressedTexture2D::1230233823197673629::1707498010::1707498017::1::::<><>::
+main_menu.tscn::PackedScene::2176541293355692848::1707518814::0::1::::<><>::uid://d01n42rpia7wn::::res://sprites/Pattern.png<>uid://prp4q26grc4s::::res://sprites/FakeMenu.png<>res://scroll.gdshader
+scroll.gdshader::Shader::-1::1707518814::0::1::::<><>::
+::res://original/::1707518814
+menu.tscn::PackedScene::8411947454474966977::1707518814::0::1::::<><>::res://original/scroll.gdshader<>uid://d01n42rpia7wn::::res://sprites/Pattern.png<>uid://prp4q26grc4s::::res://sprites/FakeMenu.png
+RepeatPattern.png::CompressedTexture2D::6392081739993236200::1707513242::1707513409::1::::<><>::
+scroll.gdshader::Shader::-1::1707518814::0::1::::<><>::
+::res://sprites/::1707518870
+FakeMenu.png::CompressedTexture2D::1088890502804750076::1707512774::1707513421::1::::<><>::
+Pattern.png::CompressedTexture2D::8968499517649261721::1707512181::1707513421::1::::<><>::
+RepeatingPattern.png::CompressedTexture2D::984497637267976234::1707518870::1707518871::1::::<><>::

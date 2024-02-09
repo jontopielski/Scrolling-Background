@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://dr32ssxitt23v"]
+
+[ext_resource type="Shader" path="res://original/scroll.gdshader" id="1_kwqx2"]
+[ext_resource type="Texture2D" uid="uid://d01n42rpia7wn" path="res://sprites/Pattern.png" id="2_mofub"]
+[ext_resource type="Texture2D" uid="uid://prp4q26grc4s" path="res://sprites/FakeMenu.png" id="3_wfasq"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ru8fs"]
+shader = ExtResource("1_kwqx2")
+shader_parameter/speed = 0.05
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.109804, 0.368627, 0.67451, 1)
+
+[node name="ScrollBg" type="TextureRect" parent="."]
+texture_filter = 1
+texture_repeat = 2
+material = SubResource("ShaderMaterial_ru8fs")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_mofub")
+stretch_mode = 1
+
+[node name="FakeMenu" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_wfasq")
